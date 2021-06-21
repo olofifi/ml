@@ -76,7 +76,7 @@ def nested(chain: Chain,
 
 x = np.arange(-3, 3, 0.01)
 
-chain = [square]
+chain = [leaky_relu, square, sigmoid]
 
 f = nested(chain, x)
 d = deriv_chain(chain, x)

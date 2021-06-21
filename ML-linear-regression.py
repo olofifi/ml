@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from typing import Callable, List
-import pandas as pd
 
 from numpy.core.getlimits import _register_known_types
 
